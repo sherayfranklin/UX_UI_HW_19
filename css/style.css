@@ -5,6 +5,7 @@
 .aboutMeLeft {
   display: inline-block;
   margin: 0px;
+  
 }
 
 .aboutMeRight {
@@ -168,6 +169,7 @@ h6 {
 .inline-block,.inline-block li{
 display: inline-block;
 vertical-align: top;
+text-decoration: none;
 
 }
 
@@ -180,9 +182,7 @@ background-color: #374245;
 
 }
 
-li:active {
-  text-decoration: underline;
-}
+
 
 .mySkills {
   height: 700px;
@@ -216,9 +216,9 @@ background-color: #374245;
 
 .nav-linkscroll {
   color: white;
-  float: right;
   padding: 16px;
   font-family: Helvetica, sans-serif;
+  text-decoration: none;
 
 }
 

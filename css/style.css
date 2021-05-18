@@ -75,12 +75,16 @@ footer ul{
 vertical-align: text-top;
 width: auto;
 
+
+
+
 }
 
 footer li, .inline-block li{
   font-weight: bold;
   padding: 0px 10px 10px 0px;
   display: inline-block;
+  margin: 0;
   
 }
 
@@ -109,6 +113,8 @@ margin-top: -100px;
 
 header {
   background-color: #373738;
+  width: 100%;
+  position: fixed;
 }
 
 .aboutMe {
@@ -172,6 +178,10 @@ padding: 19px;
 float: left;
 background-color: #374245;
 
+}
+
+li:active {
+  text-decoration: underline;
 }
 
 .mySkills {

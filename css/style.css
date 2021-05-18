@@ -30,7 +30,7 @@
 .aboutMeButton {
   margin-left: 40px;
   color: #ffffff;
-  background-color:#F2CBBD;
+  background-color:#F2DAD1;
   border: 0px;
   padding: 15px 25px 15px 25px;
   font-weight: 800;
@@ -44,8 +44,8 @@ body {
 }
 
 button {
-color: #F18157;
-background-color: antiquewhite;
+color: #374245;
+background-color: #F2DAD1;
 border: 0px;
 padding: 10px 50px 10px 50px;
 font-weight: 800;
@@ -201,6 +201,14 @@ font-family: Helvetica, sans-serif;
 .navigation {
 overflow: hidden;
 background-color: #374245;
+
+}
+
+.nav-linkscroll {
+  color: white;
+  float: right;
+  padding: 16px;
+  font-family: Helvetica, sans-serif;
 
 }
 

@@ -22,10 +22,13 @@
 }
 
 .aboutmep {
-  font-family: Helvetica, sans-serif;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 24px;
   margin-top: -75px;
   margin-left: 40px;
+  text-align: justify;
 
 }
 
@@ -72,8 +75,11 @@ background-color: white;
 footer {
 padding: auto;
 background-color: #374245;
-font-family: Helvetica, sans-serif;
+font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 text-align: left;
+
 
 }
 
@@ -97,6 +103,7 @@ footer li, .inline-block li{
 .footer-text {
   width: 40%;
   display: inline-block;
+  
 
 }
 
@@ -126,46 +133,60 @@ header {
 
 .aboutMe {
 height: 800px;
-padding: 25px;
+padding: 100px;
 
 }
 
 h1 {
-font-size: 100px;
-font-family: Helvetica, sans-serif;
+font-size: 110px;
+font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 color: #374245;
 display: inline-block;
-margin
+margin-left: 100px;
 }
 
 h3 {
 color: #F18157;
-font-family: Helvetica, sans-serif;
-font-size: 15px;
+font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+font-size: 18px;
 margin-top: -1px
 
 }
 
 h4 {
   color: #374245;
-  font-family: Helvetica, sans-serif;
-  font-size: 15px;
+  font-family: proxima-nova, helvetica,sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
   margin-top: 0px;
   
   }
 
 h5 {
-    color: #F2CBBD;
-    font-size: 117.5px;
-    font-family: Helvetica, sans-serif;
+  font-family: proxima-nova, helvetica, sans-serif;
+  font-weight: 800;
+  font-style: normal; 
+  color: #F2CBBD;
+  font-size: 118px;
+  text-align: right;
+    
     
     }
 
 h6 {
   color:#F18157;
   font-size: 100px;
-  font-family: Helvetica, sans-serif;
+  font-family: proxima-nova, helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
   margin: 0px;
+  margin-left: 50px;
+  
  
 
 }
@@ -200,6 +221,7 @@ li:active {
 .mySkillsLeft{
   width: 40%;
   float: left;
+  margin-top: -25px;
 
 }
 
@@ -214,6 +236,7 @@ padding: 16px;
 background-color: #374245;
 float: right;
 font-family: Helvetica, sans-serif;
+margin-left: 100px;
 }
 
 .navigation {
@@ -275,8 +298,11 @@ border-radius: 25px;
 }
 
 .skillsHeader {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
   display: inline-block;
-  margin: 0px;
+  margin-bottom: 50px;
 }
 
 .sherayface {
@@ -286,11 +312,13 @@ border-radius: 40px;
 }
 
 .skillsp {
-  font-family: Helvetica, sans-serif;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 24px;
   display: inline-block;
-  margin: 0px;
-  margin-left: 45px; 
+  margin: -100px;
+  margin-left: 50px; 
 
 }
 
@@ -311,7 +339,7 @@ margin-left: -100px;
 height: 550px;
 width:100%;
 align-content: center;
-padding: 3px 50px 5px 50px;
+padding: 3px 20px 5px 20px;
 
 }
 .workGrid {
@@ -329,8 +357,9 @@ background-color: #ffffff;
 
 
 .wireframe-image {
-padding: 3px 50px 5px 50px;
+padding: 10px 50px 5px 50px;
 background-color: #ffffff;
+
 }
 
 

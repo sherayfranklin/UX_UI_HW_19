@@ -17,6 +17,7 @@
 .aboutMeimg {
   width:400px;
   margin-left: 40px;
+  padding: ;
   
 }
 
@@ -36,6 +37,10 @@
   padding: 15px 25px 15px 25px;
   font-weight: 800;
   border-radius: 30px;
+}
+
+.active a {
+  color:#F18157 !important;
 }
 
 body {
@@ -116,6 +121,7 @@ header {
   background-color: #373738;
   width: 100%;
   position: fixed;
+  
 }
 
 .aboutMe {
@@ -165,7 +171,6 @@ h6 {
 }
 
 
-
 .inline-block,.inline-block li{
 display: inline-block;
 vertical-align: top;
@@ -182,7 +187,10 @@ background-color: #374245;
 
 }
 
+li:active {
+  
 
+}
 
 .mySkills {
   height: 700px;
@@ -212,6 +220,10 @@ font-family: Helvetica, sans-serif;
 overflow: hidden;
 background-color: #374245;
 
+}
+
+.navbar-nav {
+  
 }
 
 .nav-linkscroll {
